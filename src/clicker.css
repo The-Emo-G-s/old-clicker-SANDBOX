@@ -1,0 +1,114 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: #F7F2AD;
+}
+.column-container {
+  position: absolute;
+  top: 0;
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  min-width: 300px;
+}
+.column {
+  width: 90vw;
+  margin: 20px;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #EE990D;
+}
+.container {
+  width: 100%;
+  height: calc(100vh - 40px);
+}
+.container.left {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.column-header {
+  font-size: 25px;
+  position: relative;
+  background-color: #F7F2AD;
+	color: #7F7B7B;
+  margin-bottom: 8px;
+}
+#big_coffee {
+  user-select: none;
+  font-size: 128px;
+  cursor: pointer;
+}
+.counter-container {
+  font-size: 30px;
+  margin: 10px;
+}
+.cps-container {
+  font-size: 20px;
+}
+#producer_container {
+  padding: 10px;
+  overflow: auto;
+  border: 2px #7F7B7B solid;
+  border-radius: 5px;
+  background-color: #F7F2AD;
+}
+.producer {
+  color: #7F7B7B;
+  margin-bottom: 5px;
+  padding: 10px;
+  border: 2px solid #7F7B7B;
+  border-radius: 4px;
+  display: flex;
+  justify-content: space-between;
+}
+.active-producer {
+  margin-bottom: 5px;
+  padding: 10px;
+  border: 2px solid #7F7B7B;
+  border-radius: 4px;
+  display: flex;
+  justify-content: space-between;
+  background-color: #EE990D;
+  color: #F7F2AD;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-style: bold;
+}
+.barrista {
+  margin-top: 65px;
+  padding: 10px;
+  border: 2px solid #EE990D;
+  border-radius: 14px;
+  display: flex;
+  background-color: #EE990D;
+  color: #F7F2AD;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.producer-column {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.producer-title {
+  font-size: 20px;
+}
+.producer button {
+  font-size: 15px;
+  width: 50px;
+}
+
+.initial {
+	background-color: #EE990D;
+	color: #F7F2AD;
+}
+
+.repeat {
+	background-color: #7F7B7B;
+	color: #EE990D;
+}
